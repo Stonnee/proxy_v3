@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "Proxy Switcher"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+      }
+   },
+   "description": "Easily switch between multiple proxies via toolbar popup.",
+   "homepage_url": "https://mybrowseraddon.com/proxy-switcher.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhUNMAXY4YnNSUqFp+RliR6Iy1Us3O1fx5hfCJEff9/si0BfwQ9jwlpCPplG8uR3z7ckWu1a36vzChOYMvKIbXXSMP8v1dJloAmxwDSmRkWHil4yfqma9yI5TNj1t35F1Z2Lr3x+W4/Sl7tXlgTfG6CHHLnzgmWlRbU+EgbDJ3cRwQTlI6a6xGU9o3aWSOi4H5OByajQSzd7V+4z1Q4p0q/r9CjYcPF3ztGlZRBa4l2odoehzvuyEtOdTWAjh+5ywIP7TdQGs4/1/kccrq6r/vfRIDZusmNickwE8Qeozdpdkwq0MGdy421WmnaRz8vvAOK5tQB9t48YD+W+t+NWokQIDAQAB",
+   "manifest_version": 3,
+   "name": "Proxy Switcher",
+   "offline_enabled": true,
+   "optional_host_permissions": [ "*://*/*" ],
+   "optional_permissions": [ "webRequest", "webRequestAuthProvider" ],
+   "permissions": [ "proxy", "storage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.8"
+}

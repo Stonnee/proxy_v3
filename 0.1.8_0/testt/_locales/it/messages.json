@@ -1,0 +1,119 @@
+{
+   "account_desc": {
+      "message": "L'account premium ti darà accesso illimitato ai server proxy VPN premium e ti permetterà anche di scaricare automaticamente i server proxy condivisi."
+   },
+   "account_status_active": {
+      "message": "L'iscrizione premium del tuo account \"\u003Cspan class=\"email\">mail@example.com\u003C/span>\" scadrà fra \u003Cspan class=\"time\">3\u003C/span> giorni. Per prevenire l'interruzione del servizio, ti consigliamo di estendere il tuo account almeno un paio di giorni prima."
+   },
+   "account_status_expired": {
+      "message": "L'iscrizione premium del tuo account \"\u003Cspan class=\"email\">mail@example.com\u003C/span>\" è scaduta. Per continuare ad usare i server proxy VPN premium devi estenderla, o puoi semplicemente usare i server proxy condivisi che sono gratis per sempre!"
+   },
+   "app_name": {
+      "message": "Best Proxy Switcher"
+   },
+   "captcha_desc": {
+      "message": "Devi scaricare la lista proxy aggiornata dal nostro server. Verifica che non sei un robot digitando il codice mostrato nella figura:"
+   },
+   "captcha_offer": {
+      "message": "Gli utenti premium possono scaricare lista proxy aggiornata automaticamente. Se ti interessa, \u003Ca href=\"#\">clicca qui\u003C/a>"
+   },
+   "description": {
+      "message": "Usa Best Proxy Switcher con i tuoi server proxy o lascialo scaricare la lista più recente dal nostro sito GRATUITAMENTE per SEMPRE!"
+   },
+   "import_desc_1": {
+      "message": "Inserisci un server proxy per ogni riga, nel seguente formato - \u003Cb>ip:porta\u003C/b> o \u003Cb>host:porta\u003C/b>."
+   },
+   "import_desc_2": {
+      "message": "Se il proxy richiede autenticazione, inserisci le credenziali nel seguente formato - \u003Cb>utente:password@ip:porta\u003C/b>."
+   },
+   "import_desc_3": {
+      "message": "Puoi impostare manualmente la nazione e la città per ogni proxy nel seguente formato - \u003Cb>codice,nazione,città,ip:porta\u003C/b> o \u003Cb>nazione,città,utente:password@ip:porta\u003C/b>."
+   },
+   "locale_css": {
+      "message": "popup_it.css"
+   },
+   "menu_account": {
+      "message": "Il tuo account premium"
+   },
+   "menu_disable_proxy": {
+      "message": "Disattiva server proxy"
+   },
+   "menu_enable_proxy": {
+      "message": "Attiva server proxy"
+   },
+   "menu_import": {
+      "message": "Importa lista proxy"
+   },
+   "menu_shared_proxy": {
+      "message": "Seleziona proxy condiviso"
+   },
+   "menu_tutorial": {
+      "message": "Guida passo dopo passo"
+   },
+   "menu_user_proxy": {
+      "message": "Seleziona proxy utente"
+   },
+   "menu_vpn_proxy": {
+      "message": "Seleziona proxy VPN premium"
+   },
+   "placeholder_email": {
+      "message": "inserisci la tua email"
+   },
+   "placeholder_password": {
+      "message": "inserisci la tua password"
+   },
+   "rate_desc": {
+      "message": "Ti dispiacerebbe prendere un attimo per valutarlo? Grazie in anticipo per il tuo supporto!"
+   },
+   "rate_option_1": {
+      "message": "Valutalo ora"
+   },
+   "rate_option_2": {
+      "message": "Ricordamelo più tardi"
+   },
+   "rate_option_3": {
+      "message": "No, grazie"
+   },
+   "rate_title": {
+      "message": "Ti è piaciuto Best Proxy Switcher?"
+   },
+   "user_proxy_desc": {
+      "message": "Questi server proxy sono condivisi da migliaia di utenti GRATIS! La velocità e stabilità possono variare. La lista viene aggiornata ogni 5 minuti! Se ti serve un proxy veloce e stabile, usa i server \u003Ca href=\"#premium\">proxy VPN premium\u003C/a>."
+   },
+   "user_proxy_hide_desc": {
+      "message": "\u003Ci>\u003C/i> nasconde la tua nazione e città, ma connessione internet lenta"
+   },
+   "user_proxy_unblock_desc": {
+      "message": "\u003Ci>\u003C/i> veloce sblocco dei siti ma NON nasconde la tua nazione e città"
+   },
+   "value_btn_clear_list": {
+      "message": "svuota lista proxy"
+   },
+   "value_btn_extend": {
+      "message": "estendi iscrizione"
+   },
+   "value_btn_file": {
+      "message": "scegli file"
+   },
+   "value_btn_import": {
+      "message": "importa"
+   },
+   "value_btn_import_file": {
+      "message": "importa da file"
+   },
+   "value_btn_login": {
+      "message": "accedi"
+   },
+   "value_btn_logout": {
+      "message": "disconnetti"
+   },
+   "value_btn_register": {
+      "message": "registra"
+   },
+   "value_btn_save": {
+      "message": "salva modifiche"
+   },
+   "vpn_proxy_desc": {
+      "message": "Prova i nostri server proxy VPN premium GRATIS. A differenza dei server proxy normali, un proxy VPN cripta le informazioni. Ciò significa che nessuno può vedere che messaggi stai inviando e quali siti stai visitando. I proxy VPN sono l'ideale anche per sbloccare siti ristretti!"
+   }
+}

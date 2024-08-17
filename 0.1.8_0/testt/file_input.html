@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="file_input.css" />
+  <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+  <div class="content">
+    <input class="file_selector" type="file" accept="text/*"/>
+    <div class="input_wrap">
+      <div class="name"></div>
+      <input class="select" type="button" value="" data-l10n-id="value_btn_file">
+    </div>
+    <input class="button" type="button" value="" data-l10n-id="value_btn_import">
+  </div>
+  <div class="loading">
+    <img class="spin" src="/img/loading.png" border="0">
+  </div>
+  <script src="popup.js"></script>
+  <script src="file_input.js"></script>
+</body>
+</html>

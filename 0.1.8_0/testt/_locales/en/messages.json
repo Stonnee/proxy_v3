@@ -1,0 +1,119 @@
+{
+   "account_desc": {
+      "message": "Account with premium subscription will give you unlimited access to premium VPN proxy servers and also will allow you to download shared proxy servers automatically."
+   },
+   "account_status_active": {
+      "message": "Premium subscription for your account \"\u003Cspan class=\"email\">mail@example.com\u003C/span>\" will expire in \u003Cspan class=\"time\">3\u003C/span> days. To prevent interruption in service usage, we recommend to extend your account at least couple of days in advance."
+   },
+   "account_status_expired": {
+      "message": "Premium subscription for your account \"\u003Cspan class=\"email\">mail@example.com\u003C/span>\" expired. To continue using Premium VPN proxy servers, you need to extend it or simply use Shared Proxy serves which are free for life time!"
+   },
+   "app_name": {
+      "message": "Best Proxy Switcher"
+   },
+   "captcha_desc": {
+      "message": "You need to download fresh proxy list from our server. Please verify that you are not a robot by typing the code shown on the picture:"
+   },
+   "captcha_offer": {
+      "message": "User with premium subscription are allowed to download fresh proxy list automatically. If you are interested, please \u003Ca href=\"#\">click here\u003C/a>"
+   },
+   "description": {
+      "message": "Use best proxy switcher with your proxy servers or let it download most recently checked list from our web site FREE for LIFETIME!"
+   },
+   "import_desc_1": {
+      "message": "You should enter each of your own proxy server from a new line, in the following format - \u003Cb>ip:port\u003C/b> or \u003Cb>host:port\u003C/b>."
+   },
+   "import_desc_2": {
+      "message": "If your proxy requires authentication, enter credentials in the following format - \u003Cb>user:pass@ip:port\u003C/b>."
+   },
+   "import_desc_3": {
+      "message": "You can manually set country and city name for each proxy in the following format - \u003Cb>code,country,city,ip:port\u003C/b> or \u003Cb>country,city,user:pass@ip:port\u003C/b>."
+   },
+   "locale_css": {
+      "message": "popup_en.css"
+   },
+   "menu_account": {
+      "message": "Your Premium Account"
+   },
+   "menu_disable_proxy": {
+      "message": "Disable Proxy Server"
+   },
+   "menu_enable_proxy": {
+      "message": "Enable Proxy Server"
+   },
+   "menu_import": {
+      "message": "Import Proxy List"
+   },
+   "menu_shared_proxy": {
+      "message": "Select Shared Proxy"
+   },
+   "menu_tutorial": {
+      "message": "Step by Step Guide"
+   },
+   "menu_user_proxy": {
+      "message": "Select User Proxy"
+   },
+   "menu_vpn_proxy": {
+      "message": "Select Premium VPN Proxy"
+   },
+   "placeholder_email": {
+      "message": "enter your email"
+   },
+   "placeholder_password": {
+      "message": "enter your password"
+   },
+   "rate_desc": {
+      "message": "Would you mind take a moment to rate it? Thank you in advance for your support!"
+   },
+   "rate_option_1": {
+      "message": "Rate It Now"
+   },
+   "rate_option_2": {
+      "message": "Remaind Me Later"
+   },
+   "rate_option_3": {
+      "message": "No, Thanks"
+   },
+   "rate_title": {
+      "message": "Did you like Best Proxy Switcher?"
+   },
+   "user_proxy_desc": {
+      "message": "Those proxy servers are shared with thousands of FREE users! The speed and stability may vary. The list is updated every 5 minutes! If you need fast and stable proxy, please instead use \u003Ca href=\"#premium\">premium VPN proxy\u003C/a> servers."
+   },
+   "user_proxy_hide_desc": {
+      "message": "\u003Ci>\u003C/i> proxy hides your country and city but slowest internet connection"
+   },
+   "user_proxy_unblock_desc": {
+      "message": "\u003Ci>\u003C/i> fast site unlocker proxy but does NOT hide your country and city"
+   },
+   "value_btn_clear_list": {
+      "message": "clear proxy list"
+   },
+   "value_btn_extend": {
+      "message": "extend subscription"
+   },
+   "value_btn_file": {
+      "message": "choose file"
+   },
+   "value_btn_import": {
+      "message": "import"
+   },
+   "value_btn_import_file": {
+      "message": "import from file"
+   },
+   "value_btn_login": {
+      "message": "login"
+   },
+   "value_btn_logout": {
+      "message": "logout"
+   },
+   "value_btn_register": {
+      "message": "register"
+   },
+   "value_btn_save": {
+      "message": "save changes"
+   },
+   "vpn_proxy_desc": {
+      "message": "Please try our Premium VPN Proxy servers for FREE. Unlike regular proxy servers, VPN proxy encrypts information. This means nobody can see what messages you are sending and what web pages you visiting. VPN proxy are ideal to unblock restricted web sites too!"
+   }
+}

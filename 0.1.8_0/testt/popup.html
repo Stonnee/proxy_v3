@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="flag.css" />
+  <link rel="stylesheet" href="popup.css" />
+  <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+  <ul class="menu user_proxy">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_user_proxy"></li>
+    <li class="key"></li>
+    <li class="arrow"><span><i></i></span></li>
+  </ul>
+  <div class="holder user_proxy">
+    <div class="list_wrap">
+      <!--<ul>
+        <li class="type hide"></li>
+        <li class="proxy">180.180.121.140:8088</li>
+        <li class="flag th"></li>
+        <li class="country">Thailand</li>
+        <li class="city">Bangkok</li>
+      </ul>-->
+    </div>
+  </div>
+
+  <ul class="menu shared_proxy">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_shared_proxy"></li>
+    <li class="key"></li>
+    <li class="arrow"><span><i></i></span></li>
+  </ul>
+  <div class="holder shared_proxy">
+    <p data-l10n-id="user_proxy_desc"></p>
+    <div class="list_wrap">
+      <!--<ul>
+        <li class="type hide"></li>
+        <li class="proxy">180.180.121.140:8088</li>
+        <li class="flag th"></li>
+        <li class="country">Thailand</li>
+        <li class="city">Bangkok</li>
+      </ul>-->
+    </div>
+    <em class="legend hide" data-l10n-id="user_proxy_hide_desc"></em>
+    <em class="legend unlock" data-l10n-id="user_proxy_unblock_desc"></em>
+  </div>
+  <div class="holder captcha">
+    <p data-l10n-id="captcha_desc"></p>
+    <div class="form">
+      <img class="captcha" src="https://proxy-list.org/engine/best-proxy-switcher.php?op=captcha" border="0"><br/>
+      <input class="code" type="text" placeholder="type the code"><input class="button" type="button" value="submit code">
+    </div>
+    <em class="legend"><span data-l10n-id="captcha_offer"></span></em>
+  </div>
+
+  <ul class="menu vpn_proxy">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_vpn_proxy"></li>
+    <li class="key"></li>
+    <li class="arrow"><span><i></i></span></li>
+  </ul>
+  <div class="holder vpn_proxy">
+    <div class="list_wrap">
+      <!--<ul>
+        <li class="type hide"></li>
+        <li class="proxy">180.180.121.140:8088</li>
+        <li class="flag th"></li>
+        <li class="country">Thailand</li>
+        <li class="city">Bangkok</li>
+      </ul>-->
+    </div>
+    <em class="legend" data-l10n-id="vpn_proxy_desc"></em>
+  </div>
+
+  <ul class="menu enable_proxy disable">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_enable_proxy"></li>
+    <li class="key">Ctrl+Shift+X</li>
+    <li class="arrow"></li>
+  </ul>
+
+  <ul class="menu disable_proxy disable">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_disable_proxy"></li>
+    <li class="key">Ctrl+Shift+Z</li>
+    <li class="arrow"></li>
+  </ul>
+
+  <ul class="menu import">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_import"></li>
+    <li class="key"></li>
+    <li class="arrow"><span><i></i></span></li>
+  </ul>
+  <div class="holder import">
+    <p data-l10n-id="import_desc_1"></p>
+    <p data-l10n-id="import_desc_2"></p>
+    <p data-l10n-id="import_desc_3"></p>
+    <div class="form">
+      <textarea rows="10"></textarea>
+      <div class="button_wrap"><input class="button file" type="button" value="" data-l10n-id="value_btn_import_file"><input class="button save" type="button" value="" data-l10n-id="value_btn_save"><input class="button clear" type="button" value="" data-l10n-id="value_btn_clear_list"></div>
+    </div>
+  </div>
+
+  <ul class="menu account">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_account"></li>
+    <li class="key"></li>
+    <li class="arrow"><span><i></i></span></li>
+  </ul>
+  <div class="holder account">
+    <p data-l10n-id="account_desc"></p>
+    <div class="form">
+      <span class="email"><i></i><input placeholder="" data-l10n-id="placeholder_email"></span>
+      <span class="pass"><i></i><input placeholder="" type="password" data-l10n-id="placeholder_password"></span>
+      <div class="button_wrap"><input class="button login" type="button" value="" data-l10n-id="value_btn_login"><input class="button register" type="button" value="" data-l10n-id="value_btn_register"></div>
+    </div>
+  </div>
+  <div class="holder status">
+    <p class="valid" data-l10n-id="account_status_active"></p>
+    <p class="expire" data-l10n-id="account_status_expired"></p>
+    <div class="button_wrap"><input class="button logout" type="button" value="" data-l10n-id="value_btn_logout"><input class="button extend" type="button" value="" data-l10n-id="value_btn_extend"></div>
+  </div>
+
+  <!--<ul class="menu checker">
+    <li class="icon"></li>
+    <li class="label" data-i18n="tutorial">Proxy Checker</li>
+    <li class="key">Ctrl+Shift+C</li>
+    <li class="arrow"></li>
+  </ul>-->
+  <ul class="menu tutorial">
+    <li class="icon"></li>
+    <li class="label" data-l10n-id="menu_tutorial"></li>
+    <li class="key"></li>
+    <li class="arrow"></li>
+  </ul>
+
+  <div class="loading">
+    <img class="spin" src="/img/loading.png" border="0">
+  </div>
+
+  <div class="message">
+    <div class="window"></div>
+  </div>
+
+  <div class="rate">
+    <ul>
+      <li class="title" data-l10n-id="rate_title"></li>
+      <li class="label" data-l10n-id="rate_desc"></li>
+      <li class="button now" data-l10n-id="rate_option_1"></li>
+      <li class="button later" data-l10n-id="rate_option_2"></li>
+      <li class="button thanks" data-l10n-id="rate_option_3"></li>
+    </ul>
+  </div>
+
+  <script src="popup.js"></script>
+  <script src="popup.init.js"></script>
+</body>
+</html>

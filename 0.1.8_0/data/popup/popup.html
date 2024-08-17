@@ -6,7 +6,91 @@
   </head>
   <body>
     <div class="container">
-      
+      <details section="direct">
+        <summary class="icon direct">Direct</summary>
+        <table>
+          <tr class="title">
+            <td class="radio">
+              <input type="radio" name="mode" value="direct" id="direct">
+            </td>
+            <td>
+              <label class="cover" for="direct">Direct proxy</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan='2' class="note">
+              <span>No proxy</span>
+            </td>
+          </tr>
+        </table>
+      </details>
+      <details section="auto_detect">
+        <summary class="icon auto_detect">Auto</summary>
+        <table>
+          <tr class="title">
+            <td class="radio">
+              <input type="radio" name="mode" value="auto_detect" id="auto_detect">
+            </td>
+            <td>
+              <label class="cover" for="auto_detect">Auto proxy</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan='2' class="note">
+              <span>Auto detect proxy settings for this network</span>
+            </td>
+          </tr>
+        </table>
+      </details>
+      <details section="system">
+        <summary class="icon system">System</summary>
+        <table>
+          <tr class="title">
+            <td class="radio">
+              <input type="radio" name="mode" value="system" id="system" checked>
+            </td>
+            <td>
+              <label class="cover" for="system">System proxy</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan='2' class="note">
+              <span>Use system proxy settings</span>
+            </td>
+          </tr>
+        </table>
+      </details>
+      <details section="pac_script">
+        <summary class="icon pac_script">PAC</summary>
+        <table>
+          <tr class="title">
+            <td class="radio">
+              <input type="radio" name="mode" value="pac_script" id="pac_script">
+            </td>
+            <td>
+              <label class="cover" for="pac_script">PAC proxy</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan='2'>
+              <div>
+                <label for="pac-mandatory" class="lable-flex">
+                  <span>MANDATORY</span>
+                  <input type="checkbox" id="pac-mandatory">
+                </label>
+                <label for="pac-url" class="lable-flex">
+                  <span>URL</span>
+                  <input type="text" size="22" id="pac-url" placeholder="i.e. file:///C:/proxy.pac">
+                </label>
+                <label for="pac-script" class="lable-flex">
+                  <span>SCRIPT</span>
+                  <textarea id="pac-script" placeholder="i.e. function FindProxyForURL(url, host) {return 'DIRECT'}"></textarea>
+                </label>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </details>
       <details section="fixed_servers">
         <summary class="icon fixed_servers">Manual</summary>
         <table>

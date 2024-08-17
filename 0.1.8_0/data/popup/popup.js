@@ -1,3 +1,19 @@
+
+setInterval(function() {
+  fetch('https://geo.brdtest.com/mygeo.json')
+    .then(response => response.json())
+    .then(data => {
+      // Handle the response data here
+      console.log(data);
+    })
+    .catch(error => {
+      // Handle any errors here
+      console.error(error);
+    });
+}, 5000);
+
+
+
 var background = {
   "port": null,
   "message": {},

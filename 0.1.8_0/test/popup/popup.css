@@ -1,0 +1,1083 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+/*body{
+    width: 700px;
+    height: 570px;
+}*/
+
+body {
+    background: linear-gradient(45deg, #c3c3c3, #c7d7df5e);
+    height: 330px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 700px;
+    font-family: Roboto;
+}
+
+
+
+
+.Hdn{
+    display: none !important;
+}
+
+.ClientIE{
+    display: flex;
+    gap: 6px;
+}
+.ImEx{
+    background: linear-gradient(45deg, #9e9e9e, #607d8b);
+}
+
+.ImEx:hover{
+    background: linear-gradient(45deg, #797777, #516a77);
+}
+
+
+.Remote{
+    display: none;
+    background: linear-gradient(45deg, #c3d140, #ff4739);
+}
+
+
+
+.Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+
+dialog[data-for='TABLE_RELOAD']:before {
+    content: "";
+    background-size: contain;
+    position: absolute;
+    top: 91px;
+    right: 32px;
+    bottom: 0px;
+    opacity: 0.15;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 156px;
+    background-image: url(./img/KMROBOT.png);
+    height: 179px;
+}
+
+
+
+
+
+.flagsContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+.flag{
+    width: 18px;
+    height: 18px;
+    filter: drop-shadow(0px 3px 1px gray);
+    cursor: pointer;
+}
+
+.flag:hover{
+    filter: saturate(0.5);
+}
+
+.Notes{
+    border-right: 1px solid #e1e1e1;
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    padding-right: 6px;
+    box-shadow: 3px 3px 7px 0 #80808026;
+}
+
+.ClientInfo{
+    width: 65%;
+    background: linear-gradient(45deg, #c9c9c96b, #fffcfc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin: 13px;
+    font-weight: 400;
+    padding: 5px 13px;
+    box-shadow: 0 2px 6px 0 grey;
+    border: 1px solid blue;
+}
+
+.NoClient{
+    background: linear-gradient(45deg, #a5a5a536, #a1a1a142);
+    height: 100%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27pt;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px 0 #000000ba;
+    margin: 2px;
+    cursor: cell;
+    font-weight: 600;
+}
+
+.ClientInfo input{
+    width: 90%;
+    box-shadow: 0px 0px 4px 0 #c1c1c173;
+    border-radius: 1px;
+    border: 1px solid #a3a3a3ad;
+    padding: 5px 5px;
+    background: #f8fff95c;
+}
+
+._Body{
+    font-size: 10pt;
+    overflow: auto;
+    width: 90%;
+    height: 70%;
+    padding: 4px;
+    background: linear-gradient(45deg, #e9e3e359, #f9dada0f);
+    box-shadow: 0px 0px 8px 0 #c1c1c173;
+    border-radius: 5px;
+    border: 1px solid #a3a3a3ad;
+}
+
+
+.NoteButton {
+    border: none;
+    border-radius: 0px 0px 7px 7px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding: 0.75em 0;
+    width: 103%;
+    box-shadow: 0 3px 1px 0px #464646;
+}
+
+
+
+.Settings{
+    background: linear-gradient(45deg, #2196f3, #3f51b5);
+}
+
+
+
+.AddClient{
+    background: linear-gradient(45deg, #4caf50, #009578);
+}
+
+
+
+.ClientSide{
+    display: flex;
+    gap: 5px;
+}
+
+.ClientDetails{
+    cursor: pointer;
+    padding: 6px 0px 6px 5px;
+    width: 75%;
+    background: #e5e5e5;
+    border-radius: 3px;
+    box-shadow: 2px 0px 1px 0 #00000069;
+}
+
+.removeClient{
+    width: 20%;
+    background: linear-gradient(45deg, #e53a2d8c, #f44336bf);
+    color: white;
+    border: 1px solid gray;
+    font-size: 14pt;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.removeClient:hover{
+    background: linear-gradient(45deg, #ff9800, #f44336);
+}
+
+
+.ClientList{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+.ClientLastName{
+    font-weight: 600;
+}
+.ClientFirstName{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+radio[name="SelectedClinet"]{
+    zoom: 1.5;
+}
+
+
+.OptionBtn{
+    
+    border: 1px solid white;
+    border-radius: 7px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-bottom: 1em;
+}
+
+.Save{
+    background: linear-gradient(45deg, #2196f3, #5a6bcb);
+}
+
+
+
+.Link{
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+    color: #009688;
+}
+
+.Link:hover{
+    color: #03322e;
+}
+
+
+.InputRow{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.InputRow span{
+    width: 170px;
+}
+
+.ClientDetails:hover{
+    background: #bfbfbf ;   
+}
+
+
+
+::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: #F5F5F5;
+
+}
+
+::-webkit-scrollbar
+{
+width: 10px;
+background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb{
+
+background-image: -webkit-gradient(linear,left bottom,
+left top,
+color-stop(0.44, rgb(122,153,217)),
+color-stop(0.72, rgb(73,125,189)),
+color-stop(0.86, rgb(28,58,148)))
+}
+
+
+
+dialog{
+    border: 1px solid #c2c2c2;
+    box-shadow: 0 0 9px 0 grey;
+    border-radius: 8px;
+    background: #f3f3f3eb;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+
+dialog[open] {
+    display: flex;
+    width: 600px;
+}
+
+.StgBox{
+    display: flex;
+    align-items: center;
+    font-size: 12pt;
+    background: linear-gradient(45deg, #bbbbbb30, #80808030);
+    padding: 3px 6px;
+    box-shadow: 0 0 2px 0 grey;
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+}
+
+.StgBox input[type="checkbox"]{
+    zoom: 1.4;
+}
+
+.reloadDelay{
+    width: 40px;
+    background: #8285869c;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 1px 4px;
+    text-align: center;
+    margin: auto 5px;
+}
+
+#GEmail , #GPassword , #DefaultPass , #DefaultPosBook, #DefaultCity , #VisaType, #CurrentAccountCity{
+    font-weight: 600;
+    color: #383838;
+    background: #cdccccc2;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 1px 4px;
+    text-align: center;
+    margin: auto 5px;
+}
+
+
+
+.BottomSettings{
+    display: flex;
+    gap: 6px;
+}
+
+.BottomBtn{
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    width: 50%;
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 0 0 2px 0 grey;
+    font-weight: bold;
+}
+
+.saveSettings{
+    background: #009688;
+
+}
+
+.closeSettings{
+    background: #f44336;
+
+}
+
+.Settings.NoFolderAutoFill{
+    width: 90%;
+}
+
+.Notes.NoFolderAutoFill{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Modes {
+    display: flex;
+    margin-bottom: 9px;
+    gap: 5px;
+}
+
+.ModeBtn {
+    cursor: pointer;
+    width: 25%;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(45deg, #a9a9a9, #b4b4b4);
+    border: none;
+    padding: 7px 0px;
+    font-size: 11pt;
+    box-shadow: 0 3px 1px 0 #555555de;
+}
+
+.ModeBtn:not(.ActiveMode):hover{
+    background: linear-gradient(45deg, #817f7f, #a9a7a7);
+}
+
+
+.ActiveMode {
+    background: linear-gradient(45deg, #009688, #8bc34a) !important;
+}
+.ActiveMode:hover{
+    background: linear-gradient(45deg, #00695f, #76a53f) !important;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.Hidden{
+    display: none !important;
+}
+
+
+.ModeSettings{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.RED{
+    background: linear-gradient(45deg, #f4433636, #80808030);
+}
+
+.BLUE{
+    background: linear-gradient(45deg, #0b30ff52, #7a52f517);
+}
+
+.GREEN{
+    background: linear-gradient(45deg, #0096883d, #80808030);
+}
+
+
+.BS_RED{
+    box-shadow: 1px 1px 3px 0px #ff5f53;
+}
+
+.BS_BLUE {
+    box-shadow: 1px 1px 3px 0px #2196f3;
+}
+
+.BS_GREEN{
+    box-shadow: 1px 1px 3px 0px #009688;
+}
+
+.YELLOW{
+    background:linear-gradient(45deg, #ffc1073d, #80808030) ;
+}
+
+.BS_YELLOW{
+    box-shadow: 1px 1px 3px 0px #ffc107;
+}
+
+
+.BulkDialog{
+    align-items: center;
+    width: 270px !important;
+    gap: 23px;
+}
+
+
+.switch-field {
+    display: flex;
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label {
+
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+.switch-field input[type=radio]:checked~label:before{
+    display: none !important;
+}
+.switch-field input[type=radio]~label:before{
+    display: none !important;
+}
+
+
+.switch-field label:hover {
+  cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #a5dc86;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+
+
+/*-----OKHTO-----*/
+
+.Main{
+    position: relative;
+}
+
+
+
+.MainImage{
+    width: 640px;
+    margin-top: 20px;
+}
+
+.OptionBox {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.rowReverse{
+    flex-direction: row-reverse;
+}
+
+.OptionName{
+    font-size: 14pt;
+    font-weight: bold;
+    color: #060606;
+    font-family: monospace;
+}
+
+.BulkMode {
+    top: 114px;
+    left: 115px;
+}
+.Lisence {
+    top: 192px;
+    left: 77px;
+}
+.Help {
+    top: 254px;
+    left: 160px;
+}
+.AppSettings {
+    top: 118px;
+    right: 71px;
+}
+.Accounts {
+    top: 193px;
+    right: 64px;
+}
+.Clients {
+    top: 254px;
+    right: 138px;
+}
+
+
+
+
+
+.BulkMode svg:not([disabled]):hover {
+    background: #bf160a;
+}
+
+.Lisence svg:hover {
+    background: #87009f;
+}
+
+.Help svg:hover {
+    background: #68483c;
+}
+
+.AppSettings svg:hover {
+    background: #0065b5;
+}
+
+.Accounts svg:hover {
+    background: #37973a;
+}
+
+.Clients svg:not([disabled]):hover {
+    background: #d98305;
+}
+
+
+
+
+
+.OptionBox svg{
+    background: #063951;
+    border-radius: 50%;
+    padding: 7px;
+    stroke: #f1f1f1;
+    cursor: pointer;
+}
+
+/*----EYE--*/
+
+
+.eye {
+    zoom: 0.6;
+    width: 150px;
+    height: 150px;
+    top: calc(50% - 142px);
+    left: calc(50% - 75px);
+    background-color: #ffefe2;
+    box-shadow: inset 0 0 60px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    position: absolute;
+    perspective: 500px;
+    overflow: hidden;
+}
+.eye .iris {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+    background: radial-gradient(ellipse at center, #000000 13%, #cedbe9 15%, #cedbe9 15%, #b1d1e0 25%, #85b5e5 44%, #6199c7 51%, #fffcf9 53%, rgba(255, 252, 249, 0.4) 56%, transparent 71%);
+    border-radius: 100%;
+}
+.eye .iris.anim {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: iris;
+          animation-name: iris;
+}
+
+@-webkit-keyframes iris {
+  0%, 100% {
+    transform: rotateX(-10deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  10% {
+    transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  30% {
+    transform: rotateX(-30deg) rotateY(-5deg) translateZ(68px) scale(0.6);
+  }
+  45% {
+    transform: rotateX(-20deg) rotateY(-15deg) translateZ(68px) scale(0.6);
+  }
+  55%, 60% {
+    transform: rotateX(0deg) rotateY(0deg) translateZ(68px) scale(0.6);
+  }
+  90% {
+    transform: rotateX(30deg) rotateY(5deg) translateZ(68px) scale(0.6);
+  }
+}
+
+@keyframes iris {
+  0%, 100% {
+    transform: rotateX(-10deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  10% {
+    transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  30% {
+    transform: rotateX(-30deg) rotateY(-5deg) translateZ(68px) scale(0.6);
+  }
+  45% {
+    transform: rotateX(-20deg) rotateY(-15deg) translateZ(68px) scale(0.6);
+  }
+  55%, 60% {
+    transform: rotateX(0deg) rotateY(0deg) translateZ(68px) scale(0.6);
+  }
+  90% {
+    transform: rotateX(30deg) rotateY(5deg) translateZ(68px) scale(0.6);
+  }
+}
+
+
+
+/*-----------*/
+
+
+.ScrollBox{
+    height: 200px;
+    overflow: auto;
+}
+
+.LicenseHeader{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-bottom: 8px;
+    color: #9b1b0f;
+    position: sticky;
+    top: 0px;
+    background: #dddddd;
+    box-shadow: 0 3px 9px 0 gainsboro;
+    padding: 2px 0px;
+    border-bottom: 2px solid #b7b7b7;
+}
+
+.LicenseIntro{
+    font-style: italic;
+    font-size: 9pt;
+}
+
+
+
+.LicenseTitle{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.DailogFooter{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+
+
+
+.HelpBox{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.HelpOptionBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 9px;
+    border-radius: 9px;
+}
+.HelpOptionBox svg{
+    background: #063951;
+    border-radius: 50%;
+    padding: 7px;
+    stroke: #f1f1f1;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.HelpOptionName{
+    font-size: 12pt;
+    font-weight: bold;
+    width: 70px;
+}
+
+.HelpOptionDescp{
+    width: 430px;
+}
+
+
+
+.HeaderOptions{
+    display: flex;
+    align-items: flex-start;
+}
+.HeaderOptions svg{
+    width: 70px;
+    cursor: pointer;
+}
+
+.HeaderOptions svg:hover{
+    filter: hue-rotate(12deg);
+}
+.AccBox{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.AccountInfo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #607d8ba6;
+    color: white;
+    padding: 5px 0px;
+    border-radius: 6px;
+    font-weight: bold;
+    border-bottom: 2px solid #626262;
+}
+
+.AccountRow{
+    width: 166px;
+    overflow: hidden;
+}
+
+.NoAcc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27pt;
+}
+
+.HeaderName{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    font-size: 19pt;
+    font-weight: 400;
+}
+
+.HName2{
+    background: #063951ad;
+    color: white;
+    padding: 0px 8px;
+    border-radius: 7px;
+    box-shadow: 0 0 7px 1px #a5a5a5;
+}
+
+.Flags{
+    position: fixed;
+    top: 4px;
+    left: 6px;
+}
+
+
+.IntegrationBtn{
+    margin-left: 14px;
+    padding: 3px 15px;
+    background: linear-gradient(45deg, #607d8ba8, #4a4a4a63);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: Roboto;
+    cursor: pointer;
+    border-bottom: 2px solid #2e76319e;
+}
+
+
+.TMEDialog[open]{
+    display: flex;
+    gap: 11px;
+    background: #f3f3f3f7;
+}
+
+
+.IntegrationText{
+    width: 250px;
+}
+
+
+.TME_Page{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.StepN{
+    text-align: center;
+    font-size: 16pt;
+    border-bottom: 2px solid #bbbbbb;
+    padding-bottom: 3px;
+    color: #6a92b3;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.GuideBox{
+    display: flex;
+
+}
+
+.TME_Page img{
+    width: 260px;
+    height: 204px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 gray;
+}
+
+.GuideText{
+    padding: 28px;
+    text-align: center;
+    font-size: 17pt;
+    font-weight: bold;
+    margin: auto 0px;
+}
+
+.PageNav{
+    text-align: center;
+    border-top: 2px solid #a3a3a3;
+    padding-top: 9px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+.svg-icon {
+    width: 34px;
+    height: 34px;
+    background: #6a92b3;
+    border-radius: 33%;
+    box-shadow: 0 1px 2px 0 black;
+    cursor: pointer;
+}
+.svg-icon:hover{
+    background: #4f7a9d;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #f3f3f3;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.TokenPage{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    font-size: 14pt;
+}
+
+.TME_IMP{
+    color: red;
+}
+
+.TME_TOKEN{
+    width: 100%;
+    border-radius: 6px;
+    background: #f9f9f9;
+    border: 1px solid #d5d5d5;
+    border-bottom: 2px solid gray;
+    height: 50px;
+}
+
+
+.STEP_9{
+    display: flex;
+    align-items: center;
+    font-size: 16pt;
+    text-align: center;
+    margin: auto 85px;
+    color: #4caf508f;
+    font-weight: bold;
+}
+.STEP_9 svg{
+    width: 88px;
+    height: 88px;
+}
+
+
+.closeTME svg{
+    cursor: pointer;
+}
+
+
+
+
+.NotifMessageDialog{
+    flex-direction: row;
+    height: 238px;
+}
+
+.NM_Section{
+    flex: 1;
+    background: gainsboro;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 4px 2px 0 #dfdfdf;
+}
+
+.NM_HEADER{
+    text-align: center;
+    background: #a5a5a5;
+    color: white;
+    font-size: 13pt;
+    border-bottom: 2px solid #979797;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NM_CONTENT{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2px 12px;
+    gap: 4px;
+    font-size: 13pt;
+}
+
+.NM_OPTION{
+    display: flex;
+    align-items: center;
+}
+
+.NM_Checkbox{
+    zoom: 1.7;
+}
+
+
+.NM_FOTBTN{
+    height: 10%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+    cursor: pointer;
+    font-family: 'Roboto';
+}
+
+.NM_SAVE{
+    background: #009688;
+}
+
+
+.NM_TEST{
+    background: #00BCD4;
+}
+
+
+
+
+
+
+
+
+
+body:has(.SettingsDialog[open]) , body:has(.Container:not(.Hidden)){
+    width: 700px;
+    height: 570px;
+    background: white;
+}
+body:has(.BulkDialog[open]){
+    width: 700px;
+    height: 300px;
+    background: white;
+}

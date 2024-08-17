@@ -1,0 +1,78 @@
+var _0x55c500 = _0x1aa8;
+function _0x1aa8(_0x20a6bd, _0x2187a4) {
+  var _0x49e045 = _0x49e0();
+  _0x1aa8 = function (_0x1aa8c6, _0x549ee8) {
+    _0x1aa8c6 = _0x1aa8c6 - 0x16e;
+    var _0x1c5488 = _0x49e045[_0x1aa8c6];
+    return _0x1c5488;
+  };
+  return _0x1aa8(_0x20a6bd, _0x2187a4);
+}
+(function (_0x257c0a, _0x5e9b6b) {
+  var _0x188f57 = _0x1aa8;
+  var _0xc7ed67 = _0x257c0a();
+  while (true) {
+    try {
+      var _0x51c8bd = parseInt(_0x188f57(0x17e)) / 0x1 + -parseInt(_0x188f57(0x173)) / 0x2 * (-parseInt(_0x188f57(0x16f)) / 0x3) + parseInt(_0x188f57(0x174)) / 0x4 * (parseInt(_0x188f57(0x17c)) / 0x5) + -parseInt(_0x188f57(0x189)) / 0x6 * (parseInt(_0x188f57(0x188)) / 0x7) + parseInt(_0x188f57(0x171)) / 0x8 + -parseInt(_0x188f57(0x18a)) / 0x9 * (-parseInt(_0x188f57(0x180)) / 0xa) + -parseInt(_0x188f57(0x184)) / 0xb;
+      if (_0x51c8bd === _0x5e9b6b) {
+        break;
+      } else {
+        _0xc7ed67.push(_0xc7ed67.shift());
+      }
+    } catch (_0x547cc5) {
+      _0xc7ed67.push(_0xc7ed67.shift());
+    }
+  }
+})(_0x49e0, 0x5787e);
+var refreshURL = document[_0x55c500(0x17a) + _0x55c500(0x18b)](_0x55c500(0x18f) + 'L');
+var Status = document[_0x55c500(0x17a) + _0x55c500(0x18b)](_0x55c500(0x178));
+var timer = _0x4751a6 => new Promise(_0x4b9d3c => setTimeout(_0x4b9d3c, _0x4751a6));
+var init = async () => {
+  var _0x5c815c = _0x55c500;
+  var {
+    BulkMode: _0xdb7047
+  } = await chrome.storage[_0x5c815c(0x185)][_0x5c815c(0x17f)](_0x5c815c(0x18c));
+  _0xdb7047 = _0xdb7047 || "BulkDisable";
+  if (_0xdb7047 != _0x5c815c(0x18e)) {
+    Status.innerHTML = _0x5c815c(0x182) + _0x5c815c(0x179) + _0x5c815c(0x177) + '!';
+    return console[_0x5c815c(0x172)](_0x5c815c(0x182) + _0x5c815c(0x179) + _0x5c815c(0x177) + '!');
+  }
+  var _0x4978c8 = await chrome[_0x5c815c(0x176)][_0x5c815c(0x190) + 'e']({
+    'msg': _0x5c815c(0x175)
+  });
+  console[_0x5c815c(0x172)]("Init_Id : ", _0x4978c8);
+  if (!_0x4978c8) {
+    Status[_0x5c815c(0x18d)] = _0x5c815c(0x170) + _0x5c815c(0x17d) + "r (v2)...";
+    await timer(0x7d0);
+    return init();
+  }
+  var _0x1ab42f = setInterval(async () => {
+    var _0x495a1e = _0x5c815c;
+    var _0x10b4f1 = await chrome[_0x495a1e(0x176)].sendMessage({
+      'msg': 'GET_ID'
+    });
+    if (!_0x10b4f1) {
+      clearInterval(_0x1ab42f);
+      Status[_0x495a1e(0x18d)] = _0x495a1e(0x170) + _0x495a1e(0x17d) + "r (don't c" + _0x495a1e(0x183) + '!)';
+      await timer(0x7d0);
+      return init();
+    }
+    if (_0x4978c8 == _0x10b4f1) {
+      Status[_0x495a1e(0x18d)] = "No Updates!";
+    } else {
+      clearInterval(_0x1ab42f);
+      await chrome[_0x495a1e(0x17b)][_0x495a1e(0x185)].set({
+        'BbuttonApp': _0x495a1e(0x186)
+      });
+      window[_0x495a1e(0x187)][_0x495a1e(0x16e)] = refreshURL[_0x495a1e(0x181)];
+    }
+  }, 0x5dc);
+};
+function _0x49e0() {
+  var _0x30e484 = ["Listener M", "lose it...", '7860501kCbcxC', 'local', 'Stop', 'location', '7QOEgLL', '1343526PbnHTD', '36nalSPW', 'tor', 'BulkMode', 'innerHTML', 'Listener', '#refreshUR', 'sendMessag', 'href', '1111098atvpNp', "Please ope", '3489216WzKKKe', 'log', '2FSsHKV', '36200GgQMPm', 'GET_ID', 'runtime', " Enabled..", '.Status', "ode is not", 'querySelec', 'storage', '10gNWUFF', "n Activato", '191152NzAPyk', 'get', '703170lTutkV', 'value'];
+  _0x49e0 = function () {
+    return _0x30e484;
+  };
+  return _0x49e0();
+}
+init();

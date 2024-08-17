@@ -1,0 +1,23 @@
+
+
+body[clearMode]{
+    background-image: url(chrome-extension://__MSG_@@extension_id__/FRANCE.png);
+    background-size: cover;
+}
+
+
+body[clearMode] .tls-navbar--content,
+body[clearMode] .tls-simple-banner,
+body[clearMode] .tls-navbar,
+body[clearMode] .tls-large-card-info
+
+{
+	display: none !important;
+}
+
+
+
+body[clearMode] .tls-field {
+    display: flex !important;
+}
+

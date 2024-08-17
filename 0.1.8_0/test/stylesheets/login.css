@@ -1,0 +1,422 @@
+
+
+body[clearMode] .tls-form{
+    position: fixed;
+    right: 10px;
+    top: 120px;
+    padding: 15px !important;
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+body[clearMode] .tls-register-content--slot{
+	width: 50% !important;
+}
+
+body[clearMode] .tls-field--label {
+    width: 100px !important;
+}
+
+body[clearMode] .tls-field--area input {
+    width: 250px !important;
+}
+
+
+body[clearMode] .tls-complex-form--slot{
+    display: none !important;
+}
+
+/*-----------*/
+
+
+
+
+.AContainer{
+    margin: 2px;
+    position: fixed;
+    z-index: 99999;
+    width: 855px;
+    left: 20px;
+    top: 120px;
+    padding: 10px;
+    background: linear-gradient(45deg, white, #d2d2d2);
+    border-left: 4px solid grey;
+    border-radius: 4px;
+    box-shadow: 0 0 6px 0 grey;
+}
+
+
+
+
+
+
+
+
+
+body[clearMode] .AContainer:has(#ACHome:not(.Hidden)):before {
+    content: "";
+    background-size: contain;
+    position: absolute;
+    top: -471px;
+    left: 18px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 307px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/09/25/05/25/robot-6654031_960_720.png);
+
+}
+
+body[clearMode] .AContainer:has(#ACHome:not(.Hidden)):after {
+    content: "TLS | OKHTO-BOT";
+    position: absolute;
+    top: -95px;
+    left: 200px;
+    background: linear-gradient(45deg, #009688, #607d8b);
+    padding: 2px 8px;
+    color: white;
+    border-radius: 9px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    box-shadow: 0 2px 3px 0 #00000082;
+}
+
+
+
+
+.RealAccounId{
+    width: 26px;
+    height: 26px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImEx{
+    background: linear-gradient(45deg, #f44336a1, #877432a6);
+}
+
+.ImEx:hover{
+    background: linear-gradient(45deg, #f44336c7, #877432e0);
+}
+
+
+.ACHome , .ACNew{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.ACHome{
+    min-height: 383px;
+    justify-content: center;
+}
+
+.MoveSection{
+    cursor: move;
+}
+
+.ACRow{
+    display: flex;
+    width: 100%;
+}
+
+
+
+.Col{
+    padding: 3px 0px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#CopyAllEmails{
+    cursor: cell;
+}
+
+#CopyAllEmails:hover{
+    filter: drop-shadow(4px 3px 4px black);
+}
+
+
+.gap6{
+    gap: 6px;
+    margin-right: 14px;
+    justify-content: flex-end;
+}
+
+
+.attemp{
+    width: 20px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 0 3px 0 #919191;
+    border: 1px solid #676767;
+    border-bottom: 3px solid #595959;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+
+.clickable:hover{
+    color: #c33535;
+    font-weight: 400;
+}
+
+.applyAttemp{
+    width: 85px !important;
+    background: linear-gradient(45deg, #a57777, #827f6b);
+}
+
+.applyAttemp:hover{
+    background: linear-gradient(45deg, rgb(145 83 83), rgb(72 71 66));
+}
+
+.TAccounts{
+    z-index: 9999999;
+    margin-bottom: 12px;
+    text-align: center;
+    border: 2px solid #efefef;
+    box-shadow: 0 0 2px 0 #3d3d3d;
+    border-radius: 4px;
+    max-height: 140px;
+    overflow: overlay;
+}
+
+.JS_Center{
+    z-index: 9999999;
+    justify-content: center;
+    gap: 6px;
+}
+
+.PositionsOpts{
+    zoom: 1.7;
+    width: 50%;
+    text-align: center;
+}
+
+
+.HourRow{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}   
+
+.HourRow button{
+    cursor: pointer;
+    border-radius: 4px;
+    border: #d5d5d5 solid 1px;
+    font-weight: bold;  
+    box-shadow: 0 2px 2px 0 #959595;
+    width: 91px;
+    padding: 10px 12px;
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+
+.Active{
+    background: #a9e5ac;
+}
+
+
+
+.Bbutton{
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 2px 0 grey;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+    padding: 8px 0px;
+}
+
+.ImEx, .BStartStop{
+    width: 130px !important;
+    height: 35px;
+}
+
+
+.BStart{
+    background: linear-gradient(45deg, #009688, #62cb67);
+}
+
+
+.BStart:hover{
+    background: linear-gradient(45deg, #047268, #4fa353);
+}
+
+.BAddAcc{
+    background: linear-gradient(45deg, #f44336, #ff5722);
+}
+
+
+.BAddAcc:hover{
+    background: linear-gradient(45deg, #bd342a, #e86e48);
+}
+
+
+.loginWidth{
+    width: 97%;
+}
+
+
+.THead{
+    box-shadow: 0 2px 3px 0px #575757a3;
+    background: linear-gradient(45deg, #607d8b, #898989);
+    font-weight: bold;
+    color: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+
+.TRow{
+    background: linear-gradient(45deg, #52c36c1a, #84878917);
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    display: flex;
+    width: 100%;
+    margin: 6px auto;
+}
+
+.Settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.SR1{
+    width: 105px;
+    font-weight: bold;
+}
+
+.Rremove{
+    background: #e77575;
+}
+
+.REdit{
+    background: #b78f80;
+}
+
+
+.OptionBtn{
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 4px 0px #5f5f5f;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+
+.attempRed{
+    background: #b1b1b1 ;
+    color: white ;
+}
+
+.attempGreen{
+    background: #aaedaa;
+    color: black;
+}
+
+
+
+
+.flex1{
+    flex: 1;
+}
+
+.flex2{
+    flex: 2;
+}
+
+
+.flex3{
+    flex: 3;
+}
+
+.flex4{
+    flex: 4;
+}
+
+
+.Bltimes{
+    width: 40px;
+}
+
+.switchDate{
+    transform: scale(2.0);
+
+}
+
+
+
+
+.Hidden{
+    display: none;
+}
+
+
+.TAccounts::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.TAccounts::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background: linear-gradient(45deg, #43575b, #878889);
+}
+
+
+
+.BAdd{
+    width: 130px;
+    background: linear-gradient(45deg, #2196f3, #3f51b5);
+    margin: 0px 15px;
+    color: white;
+    border: 1px solid;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 #606060;
+    cursor: pointer;
+}
+
+.BAdd:hover{
+    background: linear-gradient(45deg, #237cc3, #1a276e);
+    
+}
+
+
+.AccountsList{
+    min-width: 100%;
+    min-height: 135px;
+}
+
+
+/*--------*/
+
+
+

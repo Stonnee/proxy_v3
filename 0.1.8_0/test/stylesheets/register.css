@@ -1,0 +1,172 @@
+
+
+
+body[clearMode] #form-email-description,
+body[clearMode] #form-password-description
+{
+	display: none !important;
+}
+
+
+body[clearMode] .tls-form{
+	padding: 15px !important;
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px !important;
+    box-shadow: 0 0 16px 0 #505050;
+    background: linear-gradient(45deg, #ededed, #adadaddb) !important;
+
+}
+
+
+
+
+body[clearMode] .tls-register-content--slot{
+	width: 80% !important;
+}
+
+body[clearMode] .tls-field--label {
+    width: 250px !important;
+}
+
+body[clearMode] .tls-field--area input {
+    width: 350px !important;
+}
+
+
+/*----*/
+
+
+.EmailProviders{
+    display: flex;
+    height: 29px;
+    justify-content: center;
+    gap: 11px;
+    padding: 9px 0px;
+    border-radius: 16px;
+    background: rgb(108 108 108 / 18%) !important;
+    box-shadow: #9d9d9dde 0px 3px 0px 0px;
+}
+
+
+
+.ISI_Register{
+    color: white;
+    padding: 3px 19px;
+    border: 1px solid white;
+    box-shadow: 0 0 7px 0 grey;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.TempMail{
+    background: linear-gradient(45deg, #009688, #52af56);
+}
+
+.TempMail:hover{
+    background: linear-gradient(45deg, #026e64, #5a975d);
+}
+
+.AccContainer{
+    position: fixed;
+    z-index: 99999;
+    right: 0px;
+    top: 26%;
+    box-shadow: grey 0px 0px 6px 0px;
+    margin: 2px;
+    padding: 10px;
+    background: linear-gradient(45deg, white, rgb(210, 210, 210));
+    border-left: 4px solid #a7a7a7;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.AccNav{
+
+    width: 160px;
+    font-weight: bold;
+    font-size: 16pt;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.LoginNav{
+    background: linear-gradient(45deg, #f44336, #e91e63);
+}
+
+
+.LoginNav:hover{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #d93b30, #b11449);
+}
+
+
+
+
+
+.RegisterBTN{
+    background: linear-gradient(45deg, #3f51b5, #2196f3);
+}
+
+.RegisterBTN:hover{
+    background: linear-gradient(45deg, #303e8b, #7b9db9);
+}
+
+
+.ISI_eGMAIL{
+    background: linear-gradient(45deg, #ff9800, #e91e63);
+}
+
+.ISI_eGMAIL:hover{
+    background: linear-gradient(45deg, #db8404, #cf1453);
+}
+
+.ISI_dialog{
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 16px;
+    border: 2px solid #858585;
+    background: #ffffffcc;
+}
+
+
+
+
+#Num2Gen{
+    width: 50px;
+    text-align: center;
+}
+
+
+
+.dialogButtons{
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 3px 0 grey;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.ISI_Run{
+    background: linear-gradient(45deg, #009688, #607d8b);
+}
+
+.ISI_Close{
+    background: linear-gradient(45deg, #f44336, #d53428);
+}

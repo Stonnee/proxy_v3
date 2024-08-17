@@ -1,0 +1,41 @@
+
+
+body{
+    background: gainsboro;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    align-items: center;
+    font-size: 35pt;
+    font-family: monospace;
+    margin: 127px 0px;
+}
+
+.RefreshBox{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.RefreshBox span{
+	color: #787878;
+}
+
+.RefreshBox input{
+	height: 46px;
+    width: 450px;
+    text-align: center;
+    font-size: 11pt;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 2px solid gray;
+}
+
+.Status{
+	background: #F44336;
+    color: white;
+    padding: 3px 34px;
+    border-radius: 9px;
+    box-shadow: 0 0px 7px 0 gray;
+}
+
